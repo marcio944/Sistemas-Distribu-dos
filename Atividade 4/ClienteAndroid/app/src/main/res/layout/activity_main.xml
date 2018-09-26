@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IPActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="36dp">
+
+        <Button
+            android:id="@+id/button_Adicao"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="253dp"
+            android:onClick="adicao"
+            android:text="Adição" />
+
+        <EditText
+            android:id="@+id/editText_Valor1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="106dp"
+            android:ems="10"
+            android:hint="Valor 1"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_Valor2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editText_Valor1"
+            android:layout_marginTop="189dp"
+            android:ems="10"
+            android:hint="Valor 2"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button_Multipicacao"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="176dp"
+            android:onClick="multiplicacao"
+            android:text="Multiplicação" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
